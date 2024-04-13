@@ -1,0 +1,12 @@
+<div class="card w-96 bg-base-100 shadow-xl mx-auto mt-6">
+  <figure class="w-full h-full"><img src={{item.image}} alt={{item.title}} width="200"/></figure>
+  <div class="card-body">
+    <h2 class="card-title">{{item.title}}</h2>
+    <div class="card-actions justify-around items-center">
+      <div class="badge badge-accent">{{item.price}}$</div>
+      <button class="btn btn-primary" (click)="onClick()">
+        Buy Now
+      </button>
+    </div>
+  </div>
+</div>
